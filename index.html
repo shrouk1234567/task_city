@@ -78,21 +78,48 @@
       border: 1px solid green;
       padding: 8px;
     }
-    figure {
   
-  margin: 20px;
-  text-align: center;
-}
-figcaption {
-  margin-top: 8px;
-  color: #01340d;
-  font-weight: bold;
-}
     footer {
       background-color: #c3e6cb;
       padding: 10px;
       border-radius: 10px;
     }
+    
+@media (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;  
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav {
+    overflow: visible; 
+  }
+
+  div {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  img {
+    width: 80% !important; 
+    height: auto;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: auto;
+  }
+
+  table {
+    width: 100% !important;
+    font-size: 14px;
+  }
+}
 </style>  
         <body>
             <header>
@@ -165,7 +192,7 @@ figcaption {
            </section>
            <section id="map">
             <hr>
-            <h2>Where is Makkah</h2>
+            <h2>Where is Makkah ?</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.34566593692!2d39.826206!3d21.422487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c204b58b6b3a19%3A0xe0c75b2b09e3f89a!2sMasjid%20al-Haram!5e0!3m2!1sen!2seg!4v1710000000000!5m2!1sen!2seg" 
             allowfullscreen width="100%" height="450px" style="border: 0;border-radius: 10px; ">
         
