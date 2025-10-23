@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Makkah website</title>
+        <link rel="icon" type="image/png" href="images/mosque.png">
+      <style>
+       
+  nav {
+    
+    background-color: #a5dfb3; 
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    position: sticky;
+    overflow: scroll;
+  }
+
+  nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 10px;
+    display: flex; /* يخلي العناصر جنب بعض */
+    justify-content: center; /* يوسّطهم */
+    gap: 20px; /* مسافة بين الروابط */
+  }
+
+  nav li {
+    display: inline;
+  }
+
+  nav a {
+    text-decoration: none; /* يشيل الخط */
+    color: rgb(1, 58, 1);
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 8px;
+   
+  }
+
+  nav a:hover {
+    background-color: #8fd19e; /* لون أغمق لما تمر عليه */
+    color: white;
+  }
+  h2{
+    text-align:center ;
+  }
+  div{
+    display:flex;
+    margin:20px;
+  }
+  body {
+      background-color: #f6fff5;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    header {
+      background-color: #c3e6cb;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    
+    section {
+      margin: 20px;
+      padding: 10px;
+      background-color: #eafbea;
+      border-radius: 10px;
+    }
+   
+    table {
+      margin: auto;
+      border-collapse: collapse;
+    }
+    td, th {
+      border: 1px solid green;
+      padding: 8px;
+    }
+    figure {
+  
+  margin: 20px;
+  text-align: center;
+}
+figcaption {
+  margin-top: 8px;
+  color: #01340d;
+  font-weight: bold;
+}
+    footer {
+      background-color: #c3e6cb;
+      padding: 10px;
+      border-radius: 10px;
+    }
+</style>  
+        <body>
+            <header>
+                <center><h1 style="color: #01340d;">Welcome To Makkah</h1></center>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#places">Places</a></li>
+                    <li><a href="#facts">Facts</a></li>
+                    <li><a href="#map">Map</a></li>
+                    <li><a href="#other">Other</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            </header>
+            <section id="about">
+               <h2>About Makkah</h2>
+                <div>
+                <p style="width: 400px;">Mecca,officially Makkah al-Mukarramah,is the holiest city in Islam.
+                     It is located in the Hejaz region of western Saudi Arabia and is the capital of Mecca Province.
+                    Mecca is considered the birthplace of Islam and the birthplace of the Islamic prophet Muhammad.
+                    </p>
+                     <img style="width: 300px; float: right;border-radius: 50px;" src="images/960px-Great_Mosque_of_Mecca1.jpg">
+                     </div>
+                    
+            </section>
+            <hr>
+            <section id="places">
+                <h2>Holy Placses</h2>
+                <figure>
+                    <img src="images/Screenshot_22-10-2025_172345_www.pinterest.com.jpeg" width="300px" style="border-radius: 20px;">
+                    <img src="images/Screenshot_22-10-2025_172258_www.pinterest.com.jpeg" width="300px" height="380px" style="border-radius: 20px;">
+                    <figcaption><b>Kaaba</b>-the holiest place in I slam</figcaption>
+                </figure>
+                  <figure>
+                    <img src="images/960px-Makkah_Aerial_View.jpg" width="300px" style="border-radius: 20px;">
+                    <img src="images/Screenshot_22-10-2025_171746_www.pinterest.com.jpeg" width="300px" style="border-radius: 20px;">
+                    <figcaption><b>Jabal Al-Noor</b>-the mountain where prophet Muhammad received revelation</figcaption>
+                </figure>
+                <figure>
+      <img src="images/Screenshot_22-10-2025_171540_www.pinterest.com.jpeg" width="300" style="border-radius: 10px;">
+       <img src="images/Screenshot_22-10-2025_171621_www.pinterest.com.jpeg" width="300" style="border-radius: 10px;">
+      <figcaption><b>Mount Arafat</b> — The main site for Hajj.</figcaption>
+    </figure>
+            </section>
+            <hr>
+           <section id="facts">
+           <table  border="1" align="center"  style="width: 500px; border-spacing: 2px; background-color: #bbfbc9;padding: 20px;">
+          <tr>
+            <th style="background-color: #e9f0a4;">Fact</th>
+            <th style="background-color: #e9f0a4;">Information</th>
+          </tr>
+          <tr>
+            <th>Country</th>
+            <td>Saudia Arabia</td>
+          </tr>
+          <tr>
+            <th>Populaion</th>
+            <td>Over 2 milion residents</td>
+          </tr>
+          <tr>
+            <th>Main Languge</th>
+            <td>Arabic</td>
+          </tr>
+          <tr>
+            <th>Visitors</th>
+            <td>Over 10 milion </td>
+          </tr>
+        </table> 
+           </section>
+           <section id="map">
+            <hr>
+            <h2>Where is Makkah</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.34566593692!2d39.826206!3d21.422487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c204b58b6b3a19%3A0xe0c75b2b09e3f89a!2sMasjid%20al-Haram!5e0!3m2!1sen!2seg!4v1710000000000!5m2!1sen!2seg" 
+            allowfullscreen width="100%" height="450px" style="border: 0;border-radius: 10px; ">
+        
+            </iframe>
+           </section>
+           <hr>
+           <section id="other">
+            <h2>Video about Makkah</h2>
+            <iframe width="928" height="522" src="https://www.youtube.com/embed/YRFfFTZExb8" title="الكعبة المشرفة للأطفال | معلومات وقصة مبسطة بطريقة ممتعة" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <hr>
+         <h2>Old photo for Makkah from 1910</h2>
+         <img src="images/Makkah-1910.jpg" width="400px">
+          </section>
+            <section>
+            <h2 id="contact">Contact Me</h2>
+    <p>
+      Email:
+      <a href="mailto:shroukshehatasayed@gmail.com"
+        >shroukshehatasayed@gmail.com</a
+      >
+    </p>
+    <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/shrouk-shehata-sayed-5b531737a" target="_blank">linkedin.com/in/shrouk</a>
+    </p>
+    <p>
+      GitHub: <a href="https://github.com/shrouk1234567" target="_blank">github.com/shrouk</a>
+    </p>
+           </section>
+            <footer>
+               <p>&copy; Created by Shrouk Shehta</p>
+            
+            </footer>
+        </body>
+    </head>
+</html>
